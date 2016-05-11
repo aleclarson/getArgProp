@@ -5,9 +5,9 @@ module.exports = (index, keyPath) ->
 
   if isType index, String
     keyPath = index
+
+  unless isType index, Number
     index = 0
-  else
-    assertType index, Number
 
   unless isType keyPath, String
     return wrapFunction index, ->

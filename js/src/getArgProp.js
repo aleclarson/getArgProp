@@ -6,9 +6,9 @@ module.exports = function(index, keyPath) {
   var crumbs;
   if (isType(index, String)) {
     keyPath = index;
+  }
+  if (!isType(index, Number)) {
     index = 0;
-  } else {
-    assertType(index, Number);
   }
   if (!isType(keyPath, String)) {
     return wrapFunction(index, function() {
