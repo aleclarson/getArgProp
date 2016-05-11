@@ -1,0 +1,13 @@
+{
+  "name": "getArgProp",
+  "version": "1.0.0",
+  "main": "js/src/getArgProp",
+  "dependencies": {
+    "type-utils": "aleclarson/type-utils#1.0.0"
+  },
+  "lotus": {
+    "plugins": [
+      "lotus-coffee"
+    ]
+  }
+}
