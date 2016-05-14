@@ -1,5 +1,6 @@
 
-{ isType, assertType } = require "type-utils"
+assertType = require "assertType"
+isType = require "isType"
 
 module.exports = (index, keyPath) ->
 

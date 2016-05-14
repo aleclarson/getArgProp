@@ -1,6 +1,8 @@
-var assertType, isType, ref, wrapFunction;
+var assertType, isType, wrapFunction;
 
-ref = require("type-utils"), isType = ref.isType, assertType = ref.assertType;
+assertType = require("assertType");
+
+isType = require("isType");
 
 module.exports = function(index, keyPath) {
   var crumbs;
